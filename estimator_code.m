@@ -328,7 +328,7 @@ plot(0:dt:tf-dt,mode_vec(1:end-1),'b--','LineWidth',2)
 xlabel('Time','FontSize',20)
 legend('Estimated mode','actual mode')
 
-%% Hybrid estimator(fast estimator to get mode info, slower to propagate state)
+%% Hybrid estimator (fast estimator to get mode info, slower to propagate state)
 % No peaking phenomenon observed
 
 zeta_initial_mode_1=[3;3;3];
